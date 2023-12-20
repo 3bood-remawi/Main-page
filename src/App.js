@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Card from "./card/Card";
+import "./SocialApp/SocialApp.css";
 import "./card/Card.css";
+import SocialApp from "./SocialApp/SocialApp"
 
 const App = () => {
   const initialEvents = [
@@ -39,6 +41,7 @@ const App = () => {
   ];
   const [events, setEvents] = useState(initialEvents);
   return (
+  <div>
     <div className="app">
       <div className="events-feed">
         {events.map((event) => (
@@ -46,6 +49,13 @@ const App = () => {
         ))}
       </div>
     </div>
+    <div>
+      <SocialApp></SocialApp>
+    </div>
+
+    </div>
+
+
   );
 };
 
