@@ -1,42 +1,13 @@
-//import logo from './logo.svg';
+
 import './App.css';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Top_destination from './components/Top_destination';
-import ExploreGroups from './components/ExploreGroups';
-import Conference from './components/Conference'
-import Footer from './components/Footer';
-
-
+import Feature from './component/feature';
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Header/>
-    <Conference/>
-    <Top_destination/>
-    <ExploreGroups/>
-    <Footer/>
-    </>
+    <div className="App">
+    <Feature/>
+    </div>
   );
 }
 
 export default App;
-/*
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React<i class="fa-solid fa-bullhorn"></i>
-        </a>
-      </header>
-    </div>*/
