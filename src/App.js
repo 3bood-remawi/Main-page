@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Top_destination from './components/Top_destination';
 import ExploreGroups from './components/ExploreGroups';
 import Conference from './components/Conference'
+import Footer from './components/Footer';
 
 
 
@@ -16,6 +17,7 @@ function App() {
     <Conference/>
     <Top_destination/>
     <ExploreGroups/>
+    <Footer/>
     </>
   );
 }
