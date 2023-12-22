@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
-
+import Header from './components/Header'
 import Top_destination from './components/Top_destination';
 
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    
+    <Header/>
     <Top_destination/>
     </>
   );
