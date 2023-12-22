@@ -6,6 +6,7 @@ import Top_destination from './components/Top_destination';
 
 
 function App() {
+  
   return (
     <>
     <Navbar/>
