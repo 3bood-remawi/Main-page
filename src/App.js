@@ -1,8 +1,11 @@
 //import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
-import Header from './components/Header'
+import Header from './components/Header';
 import Top_destination from './components/Top_destination';
+import ExploreGroups from './components/ExploreGroups';
+import Conference from './components/Conference'
+
 
 
 function App() {
@@ -10,7 +13,9 @@ function App() {
     <>
     <Navbar/>
     <Header/>
+    <Conference/>
     <Top_destination/>
+    <ExploreGroups/>
     </>
   );
 }
