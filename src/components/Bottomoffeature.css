@@ -1,0 +1,23 @@
+.float-md-end img {
+    width: 100%; 
+    height: auto; 
+}
+.order-md-last img {
+    width: 100%;
+    height: auto;
+}
+.float-md-start{
+    
+text-align: center;
+margin-top: 200px !important;
+}
+.iconimg{
+    width: 400px;
+}
+.endpage{
+    width:350px !important;
+    margin: auto;
+}
+.end_of_bottom_style{
+    text-align: center;
+}
