@@ -1,12 +1,10 @@
 //import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Top_destination from './components/Top_destination';
-import ExploreGroups from './components/ExploreGroups';
+import Navbar from './components/Navbar'
+import Header from './components/Header'
 import Conference from './components/Conference'
-import Footer from './components/Footer';
-
+import Top_destination from './components/Top_destination'
+import ExploreGroups from './components/ExploreGroups'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -18,7 +16,10 @@ function App() {
     <Top_destination/>
     <ExploreGroups/>
     <Footer/>
+
+   
     </>
+
   );
 }
 
