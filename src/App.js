@@ -7,8 +7,11 @@ import Header from './components/Header';
 import Top_destination from './components/Top_destination';
 import ExploreGroups from './components/ExploreGroups';
 import Conference from './components/Conference'
+
 import Card from './components/Card'
 import SocialApp from './components/SocialApp';
+import Footer from './components/Footer';
+
 
 const initialEvents = [
   {
@@ -54,6 +57,7 @@ function App() {
     <Conference/>
     <Top_destination/>
     <ExploreGroups/>
+
     <div className="app">
     <div className="events-feed">
         {events.map((event) => (
@@ -62,6 +66,9 @@ function App() {
       </div>
     </div>
     <SocialApp/>
+
+    <Footer/>
+
     </>
   );
 }
