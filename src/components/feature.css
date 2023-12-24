@@ -1,29 +1,29 @@
-.feature {
+.Feature {
     background-color: #fafafa;
     padding: 20px;
     border-radius: 8px;
 }
 
-.feature h2 {
+.Feature h2 {
     color: #333;
     font-size: 30px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.feature p {
+.Feature p {
     color: #666;
     font-size: 16px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.features-list {
+.Features-list {
     display: flex;
     justify-content: space-between;
 }
 
-.feature-item {
+.Feature-item {
     width: 30%;
     background-color: #fff;
     padding: 15px;
@@ -32,18 +32,18 @@
     text-align: center;
 }
 
-.feature-item h3 {
+.Feature-item h3 {
     color: #333;
     font-size: 20px;
     margin-bottom: 5px;
 }
 
-.feature-item p {
+.Feature-item p {
     color: #666;
     font-size: 14px;
 }
 
-.feature-item-pic{
+.Feature-item-pic{
     width: 160px;
     background-color: white;
 }

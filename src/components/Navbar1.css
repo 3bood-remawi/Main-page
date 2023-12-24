@@ -1,4 +1,4 @@
-.navbar {
+.navbar1 {
     background-color: #fff; 
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
     display: flex;
@@ -7,34 +7,34 @@
     padding: 10px 20px;
   }
   
-  .navbar-container {
+  .navbar1-container {
     display: flex;
     justify-content: start;
     align-items: center;
     width: 100%;
   }
   
-  .navbar-logo {
+  .navbar1-logo {
     height: 40px; 
     margin-right: 20px; 
   }
   
-  .nav-links {
+  .nav1-links {
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
   }
   
-  .nav-links li {
+  .nav1-links li {
     margin-right: 20px; 
   }
   
-  .nav-links li:last-child {
+  .nav1-links li:last-child {
     margin-right: 0; 
   }
   
-  .nav-links a {
+  .nav1-links a {
     text-decoration: none;
     color: #333; 
     font-weight: 500; 
@@ -53,11 +53,11 @@
   }
   
   @media (max-width: 768px) {
-    .navbar-container {
+    .navbar1-container {
       flex-direction: column;
     }
   
-    .nav-links {
+    .nav1-links {
       margin-top: 10px;
     }
   

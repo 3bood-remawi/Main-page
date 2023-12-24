@@ -10,6 +10,7 @@ import Card from './components/Card';
 import SocialApp from'./components/SocialApp';
 import Footer from './components/Footer';
 import Navbar1 from './components/Navbar1';
+import Feature from './components/Feature';
 
 
 const initialEvents = [
@@ -66,6 +67,7 @@ function App() {
     </div>
     <SocialApp/>
     <Navbar1/>
+    <Feature/>
 
     <Footer/>
     </>
