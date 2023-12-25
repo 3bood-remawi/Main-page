@@ -13,6 +13,7 @@ import Navbar1 from './components/Navbar1';
 import Feature from './components/Feature.js';
 import Bottomoffeature from './components/Bottomoffeature.js'
 
+
 const initialEvents = [
   {
     title: "Bone thugs-n-harmony",
@@ -56,11 +57,6 @@ function App() {
     <>
     <Navbar/>
     <Header/>
-    <Conference/>
-    <Top_destination/>
-    <ExploreGroups/>
-    
-    <Bottomoffeature/>
     <div className="app">
     <div className="events-feed">
         {events.map((event) => (
@@ -68,9 +64,20 @@ function App() {
         ))}
       </div>
     </div>
-    <SocialApp/>
+    
+    
+    <Conference/>
+    <Top_destination/>
+    <ExploreGroups/>
+    
+    
+    <Footer/>
+    
     <Navbar1/>
+    <SocialApp/>
     <Feature/>
+    <Bottomoffeature/>
+    
 
     <Footer/>
     </>

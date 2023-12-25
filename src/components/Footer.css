@@ -1,0 +1,11 @@
+.my-bi{
+    fill: white;
+    background-color: blue;
+    padding: 5px;
+    margin-left: -3px;
+    margin-top: 5px;
+    
+    width: 30px;
+    height: inherit;
+      
+}
