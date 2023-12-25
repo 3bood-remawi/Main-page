@@ -12,6 +12,8 @@
     align-items: center;
     padding-bottom: 60px;
     height: 500px;
+    
+    
 }
 
 
@@ -74,13 +76,13 @@ button {
     background-color: #0372e9; 
     color: white;
     border: none;
-    border-radius: 5px !important;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 15px;
     height: 45px;
   }
 
-button:hover {
+ button:hover {
   background-color: #0056b3; 
 }
 
@@ -95,8 +97,8 @@ button:hover {
     margin-left: 5px;
 }
 .what{
-    margin-left: 20px !important;
-    margin-right: 25px ;
+    margin-left: 20px;
+    margin-right: 25px;
     border-color:rgb(206, 206, 206); 
     height: 45px;
     width: 230px;
@@ -111,3 +113,73 @@ button:hover {
     text-align: left;
     padding-left: 15px;
 }
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .header {
+        height: auto; 
+        padding-bottom: 30px; 
+    }
+
+    .header-title {
+        font-size: 24px; 
+    }
+
+    .header-title2 {
+        font-size: small;
+    }
+
+    .search-container {
+        width: 90%; 
+        height: auto; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .what,
+    .where {
+        width: 80%; 
+        margin: 10px 0; 
+    }
+
+    .event-types {
+        flex-direction: column;
+        margin-top: 300px; 
+    }
+
+    .arts,
+    .business,
+    .gaming,
+    .parties,
+    .sports {
+        width: 90%; 
+        margin: 10px auto; 
+        
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .header-title {
+        font-size: 20px; 
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+

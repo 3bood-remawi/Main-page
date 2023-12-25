@@ -1,29 +1,29 @@
-.Feature {
+.feature {
     background-color: #fafafa;
     padding: 20px;
     border-radius: 8px;
 }
 
-.Feature h2 {
+.feature h2 {
     color: #333;
     font-size: 30px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.Feature p {
+.feature p {
     color: #666;
     font-size: 16px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.Features-list {
+.features-list {
     display: flex;
     justify-content: space-between;
 }
 
-.Feature-item {
+.feature-item {
     width: 30%;
     background-color: #fff;
     padding: 15px;
@@ -32,18 +32,30 @@
     text-align: center;
 }
 
-.Feature-item h3 {
+.feature-item h3 {
     color: #333;
     font-size: 20px;
     margin-bottom: 5px;
 }
 
-.Feature-item p {
+.feature-item p {
     color: #666;
     font-size: 14px;
 }
 
-.Feature-item-pic{
+.feature-item-pic{
     width: 160px;
     background-color: white;
+}
+
+
+@media (max-width: 768px) {
+    .features-list {
+        flex-direction: column;
+    }
+
+    .feature-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
