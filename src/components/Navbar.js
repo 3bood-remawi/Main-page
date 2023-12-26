@@ -1,56 +1,6 @@
-// import React from 'react';
-// import './Navbar.css'
-// function Navbar() {
-//     return (
-//     <nav className="navbar navbar-expand-lg navbar-light mm ">
-//   <div className="container-fluid">
-//     <button data-mdb-collapse-init className="navbar-toggler" type="button" data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample" aria-expanded="false" aria-label="Toggle navigation">
-//       <i className="fas fa-bars" />
-//     </button>
-//     <div className="collapse navbar-collapse" id="navbarRightAlignExample">
-//     <div className="container-fluid">
-//       <img src='navbar_pic.png'/>
-//   </div>
 
-//       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-//         {/* <li className="nav-item">
-//           <a className="nav-link active" aria-current="page" href="!#">Home</a>
-//         </li>
-//         <li className="nav-item">
-//           <a className="nav-link" href="!#">Link</a>
-//         </li> */}
-//         <li className="nav-item dropdown">
-//           <a data-mdb-dropdown-init className="nav-link dropdown-toggle text-white " href="!#" id="navbarDropdown" role="button" aria-expanded="false">
-//             Demo
-//           </a>
-//         </li>
-//         <li className="nav-item dropdown">
-//           <a data-mdb-dropdown-init className="nav-link dropdown-toggle text-white " href="!#" id="navbarDropdown" role="button" aria-expanded="false">
-//             Pages
-//           </a>
-//         </li>
-//         <li className="nav-item dropdown">
-//           <a data-mdb-dropdown-init className="nav-link dropdown-toggle text-white " href="!#" id="navbarDropdown" role="button" aria-expanded="false">
-//             Acount
-//           </a>
-//         </li>
-//         <li className="nav-item">
-//           <a className="nav-link text-white " href="!#"> MyNetwork </a>
-//         </li>
-//         <li className="nav-item">
-//           <img src='navbar_man .png'/>
-//         </li>
-//       </ul>
-//     </div>
-//   </div>
-// </nav>
-
-//     );
-// }
-
-// export default Navbar;
 import React from 'react';
-import './Navbar.css'; // Make sure to have your custom CSS file imported here
+import './Navbar.css'; 
 
 function Navbar() {
   return (

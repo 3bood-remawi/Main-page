@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 className="mb-4 font-weight-bold ">Dwonload</h5>
+          <h5 className="mb-4 font-weight-bold ">Download</h5>
           <p className="text-black-50">
             
             <svg
