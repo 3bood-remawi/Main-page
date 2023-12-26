@@ -69,3 +69,15 @@
     font-size: 0.8rem;
     margin-left: 8px;
   }
+
+  @media (max-width: 600px) {
+    .groups-grid {
+        flex-direction: column;
+    }
+
+    .group-card {
+        width: 100%;
+    }
+
+    /* Additional styles for smaller screens */
+}

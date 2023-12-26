@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import Navbar1 from './components/Navbar1';
 import Feature from './components/Feature.js';
 import Bottomoffeature from './components/Bottomoffeature.js'
+import Middlefeature from './components/Middlefeature.js';
 
 
 const initialEvents = [
@@ -76,6 +77,7 @@ function App() {
     <Navbar1/>
     <SocialApp/>
     <Feature/>
+    <Middlefeature/>
     <Bottomoffeature/>
     
 
