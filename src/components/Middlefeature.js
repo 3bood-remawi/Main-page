@@ -16,7 +16,7 @@ const Middlefeature = () => {
 
           
           <div className="col-lg-8">
-            <div className="card1 card-body bg-light shadow border-0 p-4 p-sm-5 overflow-hidden">
+            <div className="card1 card-body bg-white shadow border-0 p-4 p-sm-5 overflow-hidden">
               <div className="row g-4">
                 <div className="col-md-6">
                   
@@ -38,8 +38,8 @@ const Middlefeature = () => {
             { img: 'bell.png', title: 'Genuine users', text: 'Satisfied conveying a dependent contented he gentleman agreeable do be warrant removed.' },
             { img: 'like.png', title: 'Stronger communities', text: 'Meant balls it if up doubt small purse. Required his you put the outlived answered position.' }
           ].map((feature, index) => (
-            <div className="col-md-4" key={index}>
-              <div className="card1 card-body bg-light shadow border-0 p-4 p-lg-5">
+            <div className="bg-white col-md-4" key={index}>
+              <div className="card1 card-body  shadow border-0 p-4 p-lg-5">
                 <img src={feature.img} alt="" className="img-fluid" style={{ maxWidth: '30%' }} />
                 <h4 className="mt-4">{feature.title}</h4>
                 <p>{feature.text}</p>
