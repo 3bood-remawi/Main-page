@@ -49,6 +49,7 @@
     justify-content: center;
     flex-direction: row;
     height: 150px;
+    margin-bottom: 100px;
     
 }
 
@@ -165,7 +166,7 @@ button {
 
     .event-types {
         flex-direction: column;
-        margin-top: 220px; 
+        margin-top: 200px; 
     }
 
     .arts,
