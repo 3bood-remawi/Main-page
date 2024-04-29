@@ -1,32 +1,34 @@
 import React, { useState } from "react";
 import './Card.css'; 
+import { useFireBase } from '../Firebase/Usefirebase'
 
-const Card = ({ event }) => {
-  const [interested, setInterested] = useState(false);
-  const [interestedCount, setInterestedCount] = useState(
-    event.interestedCount || 0
-  );
 
-  const handleInterestToggle = () => {
-    setInterested(!interested);
-    setInterestedCount(interested ? interestedCount - 1 : interestedCount + 1);
-  };
+const Card = () => {
+  const { items } = useFireBase("card");
+
+
 
   return (
-    <div className="event-card">
-      <img src={`${event.picture}`} alt="Event" />
-      <div className="event-details">
-        <h3>{event.title}</h3>
-        <p>{event.description}</p>
-        <p>
-          Date: {event.date} at {event.time}
-        </p>
-        <p>Location: {event.location}</p>
-        <p>{interestedCount} are attending</p>
-        <button id="button-interested" onClick={handleInterestToggle}>
-          {interested ? "Not Interested" : "Interested"}
-        </button>
-      </div>
+    <div className="events-feed">
+      {items.map((item) => (
+        <div key={item.id} className="event-card">
+          <img src={`${item.picture}`} alt="Event" />
+          <div className="event-details">
+            <h3>{item.title}</h3>
+            <p>
+              Date: {item.date} at {item.time}
+            </p>
+            <p>Location: {item.location}</p>
+            <p>{item.interestedCount} are attending</p>
+            <button
+              id={`button-interested-${item.id}`}
+              // onClick={() => handleInterestClick()}
+            >
+              {item.interested ? 'Not Interested' : 'Interested'}
+            </button>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };
